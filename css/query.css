@@ -1,0 +1,139 @@
+@media (min-width: 765px) {
+ 
+  p {
+    max-width: 50rem;
+  }
+  .img {
+    height: 35rem;
+  }
+
+
+
+
+  .statistics-list{
+    flex-direction: row;
+    gap:20rem;
+  }
+
+  .footer-curve,
+  .curve{
+  
+    height: 20rem;
+}
+
+
+  .sub-heading {
+    margin-bottom: var(--margin-sm);
+  }
+
+  .fcol {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+
+  .footer p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 900px) {
+
+    
+  /**************** general ********************/
+  .frow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+  .frow-reverse{
+    flex-direction: row-reverse;
+  }
+
+  .container{
+    padding:0;
+  }
+
+  section{
+    padding:0 ;
+
+}
+
+.heading-primary{
+    font-size:5rem;
+}
+
+.heading-secondary{
+    font-size: 3.6rem;
+}
+
+.sub-heading{
+    font-size: 2.8rem;
+}
+
+ /**************** hero ********************/
+.hero-img{
+height:50rem;
+}
+.header-logo{
+  height: 2.8rem;
+}
+.hero-content{
+  
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+  /****************statistics********************/
+.stat-icon{
+    height: 4rem;
+    margin-inline: auto;
+}
+  .stat-number{
+    font-size:6rem;
+ 
+}
+
+/******************** cta **************************/
+.sec-cta{
+    padding:10rem 0;
+}
+
+
+  /****************curves********************/
+
+  .curve{
+  
+    height: 20rem;
+}
+
+  .grow-top-curve{
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+}
+   
+
+ .grow-bottom-curve{
+    background-image: url("../images/bg-section-bottom-desktop-1.svg");
+   
+   }
+
+   .user-top-curve{
+    background-image: url("../images/bg-section-top-desktop-2.svg");
+   }
+
+   .user-bottom-curve{
+    background-image: url("../images/bg-section-bottom-desktop-2.svg");
+   }
+
+   .footer-curve {
+    background-image: url("../images/bg-footer-top-desktop.svg");
+    height: 20rem;
+  }
+}
